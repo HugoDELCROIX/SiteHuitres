@@ -6,7 +6,7 @@ body{
     color: #30336b;
 }
 img{
-    width: 400px;
+    width: 200px;
 }
 .actu{
     background: linear-gradient(#f6e58d ,#f0932b );  
@@ -57,4 +57,13 @@ img{
 .element{
     border: solid #30336b;
     border-radius: 5px;
+}
+
+.actu article{
+    display: flex;
+    justify-content: space-around;
+}
+
+.actu img{
+    width: 200px; 
 }

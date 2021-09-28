@@ -1,28 +1,110 @@
 <!DOCTYPE html>
-<html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style_huitre.css">
-    <title>Les Huîtres</title>
+  <style>
+    body {
+      background-color: #34495e;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #actu {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .item {
+      width: 500px;
+      margin: 20px;
+      padding: 0px;
+      border: solid black 0px;
+      border-radius: 30px;
+      overflow: hidden;
+
+      word-wrap: break-word;
+      display: flex;
+      height: 400px;
+      flex-direction: column;
+      justify-content: flex-end;
+
+
+    }
+
+    .item1 {
+      background: linear-gradient(to bottom, transparent, #090d0c), url('images/huitre1.jpg');
+      background-size: cover;
+    }
+
+    .item2 {
+      background: linear-gradient(to bottom, transparent, #090d0c), url('images/huitre2.jpg');
+      background-size: cover;
+    }
+
+    .item3 {
+      background: linear-gradient(to bottom, transparent, #090d0c), url('images/huitre3.jpg');
+      background-size: cover;
+    }
+
+    .misctext {
+      padding: 10px;
+      color: white;
+      margin-bottom: 5%;
+    }
+
+    
+  </style>
 </head>
+
 <body>
-    <div id="Titre">
-        <h1>Les Huîtres</h1>
-        <h2>Le site n°1 des férues d'huîtres</h2>
+  <h1>Les Huîtres</h1>
+  <h2>Le site n°1 des férues d'huîtres</h2>
+
+  <div id="actu">
+    <div class="item item1">
+      <div class="misc">
+        <div class="misctext">
+          <h4 class="title">
+            Les huîtres : comment les choisir et les conserver ?'
+          </h4>
+          <div class="moreinfos">
+            <p class="channel">
+              En France, les huîtres sont issues de sept régions : Normandie‐Mer du Nord, Bretagne Nord, Bretagne Sud,
+              Région Centre‐Ouest, Marennes‐Oléron, Arcachon‐Aquitaine, Méditerranée. [...]</p>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="actu">
-        <h2>Les Actualités</h2>
-        <article class="article1 element">
-            <h3><a href="https://www.economie.gouv.fr/dgccrf/Publications/Vie-pratique/Fiches-pratiques/Huitres">Les huîtres : comment les choisir et les conserver ?</a></h3>
-        </article>
-        <article class="article2 element">
-            <h3><a href="https://www.rtl.fr/actu/debats-societe/fetes-de-fin-d-annee-quand-les-huitres-s-ecrivaient-sans-h-7800945756">Fêtes de fin d'année : quand les huîtres s'écrivaient sans H</a></h3>
-        </article>
-        <article class="article3 element">
-            <h3><a href="https://cuisine.journaldesfemmes.fr/recette-huitre">Huître : toutes les recettes, raffinées et gourmandes</a></h3>
-        </article>
+
+    <div class="item item2">
+      <div class="misc">
+        <div class="misctext">
+          <h4 class="title">
+            Fêtes de fin d'année : quand les huîtres s'écrivaient sans H
+          </h4>
+          <div class="moreinfos">
+            <p class="channel">
+              Aujourd’hui, amis des mots, après en avoir mangé, et peut-être avant d’en remanger la semaine prochaine,
+              nous allons parler d’huîtres [...]</p>
+          </div>
+        </div>
+      </div>
     </div>
-</body> 
+
+    <div class="item item3">
+      <div class="misc">
+        <div class="misctext">
+          <h4 class="title">
+            Huître : toutes les recettes, raffinées et gourmandes
+          </h4>
+          <div class="moreinfos">
+            <p class="channel">
+              Que vous soyez huîtres crues ou plutôt chaudes, vous trouverez ce qu'il vous faut. Marennes Oléron, de
+              Normandie ou de Bretagne, les huîtres se déclinent aussi bien farcies [...]</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
