@@ -1,0 +1,60 @@
+body{
+    background-color: #f6e58d;
+}
+#Titre{ 
+    text-align: center;
+    color: #30336b;
+}
+img{
+    width: 400px;
+}
+.actu{
+    background: linear-gradient(#f6e58d ,#f0932b );  
+    margin: 0;
+    padding: 4.8px;
+    color: #30336b;
+    background-color: #f9ca24;
+    font: 16px 'Fira Sans', sans-serif;
+    border: #f0932b;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.actu > h1,
+.article1 {
+    margin: 8px;
+    padding: 4.8px;
+    font-size: 19.2px;
+}
+
+.article1{
+    background: right/contain content-box border-box no-repeat
+        url('huitre1.jpg') #f0932b;
+}
+
+.article2 {
+    margin: 8px;
+    padding: 4.8px;
+    font-size: 19.2px;
+}
+
+.article2{
+    background: right/contain content-box border-box no-repeat
+        url('huitre2.jpg') #f0932b;
+}
+
+.article3{
+    margin: 8px;
+    padding: 4.8px;
+    font-size: 19.2px;
+}
+
+.article3{
+    background: right/contain content-box border-box no-repeat
+        url('huitre3.jpg') #f0932b;
+}
+
+.element{
+    border: solid #30336b;
+    border-radius: 5px;
+}
