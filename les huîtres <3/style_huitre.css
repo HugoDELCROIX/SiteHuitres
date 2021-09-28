@@ -1,69 +1,48 @@
-body{
-    background-color: #f6e58d;
-}
-#Titre{ 
-    text-align: center;
-    color: #30336b;
-}
-img{
-    width: 200px;
-}
-.actu{
-    background: linear-gradient(#f6e58d ,#f0932b );  
-    margin: 0;
-    padding: 4.8px;
-    color: #30336b;
-    background-color: #f9ca24;
-    font: 16px 'Fira Sans', sans-serif;
-    border: #f0932b;
-    border-radius: 10px;
-    border-style: solid;
+body {
+    background-color: #34495e;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.actu > h1,
-.article1 {
-    margin: 8px;
-    padding: 4.8px;
-    font-size: 19.2px;
-}
-
-.article1{
-    background: right/contain content-box border-box no-repeat
-        url('huitre1.jpg') #f0932b;
-}
-
-.article2 {
-    margin: 8px;
-    padding: 4.8px;
-    font-size: 19.2px;
-}
-
-.article2{
-    background: right/contain content-box border-box no-repeat
-        url('huitre2.jpg') #f0932b;
-}
-
-.article3{
-    margin: 8px;
-    padding: 4.8px;
-    font-size: 19.2px;
-}
-
-.article3{
-    background: right/contain content-box border-box no-repeat
-        url('huitre3.jpg') #f0932b;
-}
-
-.element{
-    border: solid #30336b;
-    border-radius: 5px;
-}
-
-.actu article{
+#actu {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.actu img{
-    width: 200px; 
+.item {
+    width: 500px;
+    margin: 20px;
+    padding: 0px;
+    border: solid black 0px;
+    border-radius: 30px;
+    overflow: hidden;
+
+    word-wrap: break-word;
+    display: flex;
+    height: 400px;
+    flex-direction: column;
+    justify-content: flex-end;
+
+
+}
+
+.item1 {
+    background: linear-gradient(to bottom, transparent, #090d0c), url('images/huitre1.jpg');
+    background-size: cover;
+}
+
+.item2 {
+    background: linear-gradient(to bottom, transparent, #090d0c), url('images/huitre2.jpg');
+    background-size: cover;
+}
+
+.item3 {
+    background: linear-gradient(to bottom, transparent, #090d0c), url('images/huitre3.jpg');
+    background-size: cover;
+}
+
+.misctext {
+    padding: 10px;
+    color: white;
+    margin-bottom: 5%;
 }
