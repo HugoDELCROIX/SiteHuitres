@@ -1,6 +1,11 @@
+html{
+    padding: 0px;
+    margin: 0px;
+}
 body {
     background-color: #34495e;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
 }
 
 header{
@@ -13,16 +18,16 @@ header{
 	background-attachment: fixed;
 	position: relative;
 	overflow: hidden;
-	border-radius: 0 0 85% 85% / 30%;
+	
 }
 
 header h1{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'lato', cursive;
 	font-size: 80px;
 	margin-bottom: 30px;
 }
 
-a{ 
+#lien_actu{ 
     color: yellow;
 }
 
@@ -31,7 +36,7 @@ header h2{
 	margin-bottom: 30px;
 }
 
-#nom_rubrique{
+.nom_rubrique{
     text-align: center;
     color: aliceblue;
 
@@ -92,4 +97,48 @@ header h2{
     padding: 10px;
     color: white;
     margin-bottom: 5%;
+}
+
+#bottom_actu{
+    text-align: center;
+    font-style: italic;
+    color: #bdc3c7;
+    font-size: small;
+}
+
+#p_histoire{
+    color: aliceblue;
+    font-family: 'lato',cursive;
+    font-size: large;
+    margin: 20px;
+    
+}
+
+#p_histoire h3{
+    text-decoration:underline;
+    margin: 10px;
+}
+
+#p_histoire h4{
+    font-style: italic;
+    margin: 10px;
+}
+
+#p_histoire p{
+    margin: 0px;
+    color: #bdc3c7;
+}
+
+.img_histoire1{
+    float: right;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 500px;
+}
+
+.img_histoire2{
+    float: left;
+    margin-right: 20px;
+    margin-top: 10px;
+    width: 500px;
 }
