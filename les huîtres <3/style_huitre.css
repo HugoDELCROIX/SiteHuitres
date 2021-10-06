@@ -3,6 +3,39 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+header{
+    background: url('images/bretagne1.jpeg');
+    color: aliceblue;
+    text-align: center;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0 0 85% 85% / 30%;
+}
+
+header h1{
+    font-family: 'Dancing Script', cursive;
+	font-size: 80px;
+	margin-bottom: 30px;
+}
+
+a{ 
+    color: yellow;
+}
+
+header h2{
+    font-family: 'Dancing Script', cursive;
+	margin-bottom: 30px;
+}
+
+#nom_rubrique{
+    text-align: center;
+    color: aliceblue;
+
+}
 #actu {
     display: flex;
     justify-content: center;
@@ -41,6 +74,20 @@ body {
     background-size: cover;
 }
 
+.item4 {
+    background: linear-gradient(to bottom, transparent, #090d0c), url('images/huitre4.jpeg');
+    background-size: cover;
+}
+
+.item5 {
+    background: linear-gradient(to bottom, transparent, #090d0c), url('images/huitre5.jpeg');
+    background-size: cover;
+}
+
+.item6 {
+    background: linear-gradient(to bottom, transparent, #090d0c), url('images/huitre6.jpeg');
+    background-size: cover;
+}
 .misctext {
     padding: 10px;
     color: white;
