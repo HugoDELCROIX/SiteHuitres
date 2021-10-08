@@ -3,7 +3,8 @@ html{
     margin: 0px;
 }
 body {
-    background-color: #34495e;
+    background: linear-gradient(to left , transparent,#2c3e50 ), url('images/fond2.jpeg');
+    background-size: cover;
     font-family: 'lato', cursive  ;
     margin: 0px;
 }
@@ -104,24 +105,24 @@ header h2{
     font-size: small;
 }
 
-#p_histoire{
+.p_histoire{
     color: aliceblue;
     font-size: large;
     margin: 20px;
     
 }
 
-#p_histoire h3{
+.p_histoire h3{
     text-decoration:underline;
     margin: 10px;
 }
 
-#p_histoire h4{
+.p_histoire h4{
     font-style: italic;
     margin: 10px;
 }
 
-#p_histoire p{
+.p_histoire p{
     margin: 0px;
     color: #bdc3c7;
 }
