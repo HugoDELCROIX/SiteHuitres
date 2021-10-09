@@ -1,0 +1,22 @@
+div.galerie {
+    margin: 5px;
+    float: left;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  div.galerie img:hover {
+    border: 1px solid aliceblue;
+  }
+  
+  div.galerie img {
+    width: 100%;
+    height: auto;
+    border: 3px solid;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
