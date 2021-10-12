@@ -1,22 +1,16 @@
-div.galerie {
-    margin: 5px;
-    float: left;
-    width: 400px;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  div.galerie img:hover {
-    border: 1px solid aliceblue;
-  }
-  
-  div.galerie img {
-    width: 100%;
-    height: auto;
-    border: 3px solid;
-  }
-  
-  div.desc {
-    padding: 15px;
-    text-align: center;
-  }
+.galerie{
+  margin: 10px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 600px;
+}
+
+.galerie:hover {
+  border: 1px solid #777;
+}
+
+.galerie img {
+  width: 100%;
+  height: 400px;
+  margin: 0;
+}
