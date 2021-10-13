@@ -174,9 +174,11 @@ header h2 {
     cursor: pointer;
     background: linear-gradient(to left, #2c3e50 , transparent);
     transition: 200ms transform ease-out;
+    text-decoration: none;
 }
 
 .button:hover{
     background-color: #3498db;
     transform: scale(1.2);
 }
+
