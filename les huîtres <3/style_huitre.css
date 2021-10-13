@@ -1,45 +1,50 @@
-html{
+/* style pour toutes les pages */
+html {
     padding: 0px;
     margin: 0px;
+    font-family: 'lato', cursive;
 }
+
 body {
-    background: linear-gradient(to left , transparent,#2c3e50 ), url('images/fond2.jpeg');
+    background: linear-gradient(to left, transparent, #2c3e50), url('images/fond2.jpeg');
     background-size: cover;
-    font-family: 'lato', cursive  ;
     margin: 0px;
 }
 
-header{
+header {
     background: url('images/bretagne1.jpeg');
     color: aliceblue;
     text-align: center;
-	width: 100%;
-	height: auto;
-	background-size: cover;
-	background-attachment: fixed;
-	position: relative;
-	overflow: hidden;
-	
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+
 }
 
-header h1{
-	font-size: 80px;
-	margin-bottom: 30px;
+header h1 {
+    font-size: 80px;
+    margin-bottom: 30px;
 }
 
-#lien_actu{ 
+header h2 {
+    margin-bottom: 30px;
+}
+
+/* style pour la page des actualités*/
+
+#lien_actu {
     color: yellow;
 }
 
-header h2{
-	margin-bottom: 30px;
-}
-
-.nom_rubrique{
+.nom_rubrique {
     text-align: center;
     color: aliceblue;
 
 }
+
 #actu {
     display: flex;
     justify-content: center;
@@ -92,51 +97,86 @@ header h2{
     background: linear-gradient(to bottom, transparent, #090d0c), url('images/huitre6.jpeg');
     background-size: cover;
 }
+
 .misctext {
     padding: 10px;
     color: white;
     margin-bottom: 5%;
 }
 
-#bottom_actu{
+#bottom_actu {
     text-align: center;
     font-style: italic;
     color: #bdc3c7;
     font-size: small;
 }
 
-.p_histoire{
+/* style pour la partie histoire */
+.p_histoire {
     color: aliceblue;
     font-size: large;
     margin: 20px;
-    
+
 }
 
-.p_histoire h3{
-    text-decoration:underline;
+.p_histoire h3 {
+    text-decoration: underline;
     margin: 10px;
 }
 
-.p_histoire h4{
+.p_histoire h4 {
     font-style: italic;
     margin: 10px;
 }
 
-.p_histoire p{
+.p_histoire h6{
+    font-style: italic;
+    color: #bdc3c7;
+}
+
+.p_histoire p {
     margin: 0px;
     color: #bdc3c7;
 }
 
-.img_histoire1{
+.img_histoire1 {
     float: right;
     margin-left: 20px;
     margin-top: 10px;
     width: 500px;
 }
 
-.img_histoire2{
+.img_histoire2 {
     float: left;
     margin-right: 20px;
     margin-top: 10px;
     width: 500px;
+}
+
+/* style pour les boutons*/
+
+#buttons_index {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.button {
+    border-radius: 10px;
+    border: solid;
+    color: aliceblue;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 50px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background: linear-gradient(to left, #2c3e50 , transparent);
+    transition: 200ms transform ease-out;
+}
+
+.button:hover{
+    background-color: #3498db;
+    transform: scale(1.2);
 }
