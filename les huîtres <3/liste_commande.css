@@ -1,6 +1,25 @@
-#liste_achat{
+/* style du tableau*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+table,th,td {
+    color: aliceblue;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+tr,td,th{
+    border:3px solid aliceblue;
+}
+
+/* style des achats */
+#liste_achat {
     display: flex;
-    flex-direction: row ;
+    flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 50px;
@@ -9,19 +28,19 @@
     width: 100%;
 }
 
-img{
+img {
     width: 450px;
     height: 300px;
     border-radius: 5px;
 
 }
 
-.achat img{
+.achat img {
     border: solid black;
     border-radius: 5px;
 }
 
-.achat div{
+.achat div {
     border: solid black;
     background-color: #2c3e50;
     border-radius: 10px;
@@ -29,7 +48,8 @@ img{
     color: aliceblue;
     font-size: 20px;
 }
-.achat :hover{
+
+.achat :hover {
     background-color: #9b59b6;
 }
 
@@ -50,10 +70,9 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 
-form{
+form {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-
