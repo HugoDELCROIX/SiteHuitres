@@ -58,7 +58,7 @@ header h2 {
     flex-wrap: wrap;
 }
 
-.item {
+.news {
     width: 500px;
     margin: 20px;
     padding: 0px;
@@ -75,32 +75,32 @@ header h2 {
 
 }
 
-.item1 {
+.news-1 {
     background: linear-gradient(to bottom, transparent, #090d0c), url('images/huitre1.jpg');
     background-size: cover;
 }
 
-.item2 {
+.news-2 {
     background: linear-gradient(to bottom, transparent, #090d0c), url('images/huitre2.jpg');
     background-size: cover;
 }
 
-.item3 {
+.news-3 {
     background: linear-gradient(to bottom, transparent, #090d0c), url('images/huitre3.jpg');
     background-size: cover;
 }
 
-.item4 {
+.news-4 {
     background: linear-gradient(to bottom, transparent, #090d0c), url('images/huitre4.jpeg');
     background-size: cover;
 }
 
-.item5 {
+.news-5 {
     background: linear-gradient(to bottom, transparent, #090d0c), url('images/huitre5.jpeg');
     background-size: cover;
 }
 
-.item6 {
+.news-6 {
     background: linear-gradient(to bottom, transparent, #090d0c), url('images/huitre6.jpeg');
     background-size: cover;
 }
