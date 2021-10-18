@@ -6,7 +6,7 @@ div.galerie {
 }
 
 div.galerie:hover {
-  border: 1px solid aliceblue;
+  border: 1px solid #3498db;
 }
 
 div.galerie img {
