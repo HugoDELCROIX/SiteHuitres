@@ -16,6 +16,10 @@ tr,td,th{
     border:3px solid aliceblue;
 }
 
+td:hover{
+    background-color: #3498db;
+}
+
 /* style des achats */
 #liste_achat {
     display: flex;
