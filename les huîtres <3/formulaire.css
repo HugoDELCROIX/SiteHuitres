@@ -1,4 +1,4 @@
-input[type=text],
+input[type="text"], input[type="email"], input[type="tel"], input[type="date"],input[type="number"],
 select {
     width: 100%;
     padding: 12px 20px;
@@ -11,7 +11,7 @@ select {
     outline: none;
 }
 
-input[type=text]:focus {
+input:focus {
     border: 3px solid #3498db;
 }
 
@@ -26,10 +26,12 @@ input[type=submit] {
     cursor: pointer;
     font-weight: bold;
     font-size: medium;
+    transition: 200ms transform ease-out;
 }
 
 input[type=submit]:hover {
     background-color: #45a049;
+    transform: scale(1.02);
 }
 
 #formulaire {

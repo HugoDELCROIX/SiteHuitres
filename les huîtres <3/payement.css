@@ -2,7 +2,7 @@ body{
     background: linear-gradient(to left , transparent,#2c3e50 ), url('images/fond.jpeg');
     background-size: cover;
 }
-input[type=text],
+input[type=text],input[type="password"],
 select {
     width: 100%;
     padding: 12px 20px;
@@ -10,8 +10,8 @@ select {
     box-sizing: border-box;
     border: 3px solid #2c3e50;
     border-radius: 8px;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
     outline: none;
 }
 
