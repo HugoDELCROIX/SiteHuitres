@@ -178,6 +178,7 @@ header h2 {
 #buttons_index {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 50px;
 }
@@ -201,3 +202,43 @@ header h2 {
     background-color: #3498db;
     transform: scale(1.2);
 }
+
+/* Les MediaQueries */
+/* MediaQueries pour smartphone actuel*/
+@media (max-width: 720px) and (min-width: 376px){
+    header{
+        background: linear-gradient(to bottom, transparent, #2c3e50), url('images/bretagne1.jpeg');
+    }
+    header h1{
+        font-size: 70px;
+    }
+    .button{
+        font-size: 30px;
+        padding: 5px 16px;
+    }
+ }
+/* MediaQueries pour petit smartphone */
+ @media (max-width: 375px) and (min-width: 280px){
+    header{
+        background: linear-gradient(to bottom, transparent, #2c3e50), url('images/bretagne1.jpeg');
+    }
+    header h1{
+        font-size: 60px;
+    }
+    .button{
+        font-size: 30px;
+        padding: 5px 16px;
+    }
+ }
+ /* MediaQueries pour tablette */
+ @media (max-width: 1366px) and (min-width: 1024px){
+    header a{
+        font-size: 30px;  
+        margin-left: 10px;      
+        margin-right: 10px;   
+    }
+    h1,h2,h3,h4{
+        font-size: 30px
+    }
+ }
+ 
