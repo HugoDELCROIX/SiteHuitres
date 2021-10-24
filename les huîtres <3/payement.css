@@ -1,8 +1,11 @@
-body{
-    background: linear-gradient(to left , transparent,#2c3e50 ), url('images/fond.jpeg');
+/*CSS de la page du payement*/
+body {
+    background: linear-gradient(to left, transparent, #2c3e50), url('images/fond.jpeg');
     background-size: cover;
 }
-input[type=text],input[type="password"],
+
+input[type=text],
+input[type="password"],
 select {
     width: 100%;
     padding: 12px 20px;
@@ -44,7 +47,8 @@ input[type=submit]:hover {
     margin: 50px auto;
 
 }
-h1{
+
+h1 {
     text-align: center;
     color: aliceblue;
 }
@@ -55,23 +59,22 @@ label {
     font-weight: bold;
 }
 
-#mois_annee{
+#mois_annee {
     display: flex;
-    
+
 }
 
-.cvv{
-    width: 100% ;
+.cvv {
+    width: 100%;
 }
 
-#retour_accueil{
+#retour_accueil {
     margin: 25%;
     height: min-content;
-   
+
 }
 
-#retour_accueil h2{
+#retour_accueil h2 {
     text-align: center;
     color: aliceblue;
 }
-

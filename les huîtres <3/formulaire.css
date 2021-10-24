@@ -1,3 +1,4 @@
+/*CSS pour les formulaires*/
 input[type="text"],
 input[type="email"],
 input[type="tel"],
@@ -63,7 +64,7 @@ label {
     display: flex;
 }
 
-.formulaire a{
+.formulaire a {
     text-decoration: underline;
     color: aliceblue;
     display: block;

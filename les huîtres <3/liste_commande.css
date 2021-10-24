@@ -6,17 +6,21 @@ table {
     font-style: oblique;
 }
 
-table,th,td {
+table,
+th,
+td {
     color: aliceblue;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
-tr,td,th{
-    border:3px solid aliceblue;
+tr,
+td,
+th {
+    border: 3px solid aliceblue;
 }
 
-td:hover{
+td:hover {
     background-color: #3498db;
 }
 
