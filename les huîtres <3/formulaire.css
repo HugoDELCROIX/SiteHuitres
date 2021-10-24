@@ -70,3 +70,32 @@ label {
     display: block;
     text-align: center;
 }
+
+/* Les MediaQueries */
+/* MediaQueries pour smartphone actuel*/
+@media (max-width: 720px) and (min-width: 376px){
+    input[type="submit"],
+    select{
+        font-size: 15px;
+    }
+ }
+/* MediaQueries pour petit smartphone */
+ @media (max-width: 375px) and (min-width: 280px){
+    input[type="submit"],
+    select{
+        font-size: 11px;
+    }
+    label{
+        font-size: 15px;
+    }
+ }
+ /* MediaQueries pour tablette */
+ @media (max-width: 1366px) and (min-width: 1024px){
+    input[type="submit"],
+    select{
+        font-size: 30px;
+    }
+    label{
+        font-size: 30px;
+    }
+ }
