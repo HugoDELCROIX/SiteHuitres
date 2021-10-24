@@ -70,6 +70,7 @@ header h2 {
     height: 400px;
     flex-direction: column;
     justify-content: flex-end;
+    flex-wrap: wrap;
 
 
 }
@@ -229,6 +230,7 @@ header h2 {
         font-size: 30px;
         padding: 5px 16px;
     }
+    
  }
  /* MediaQueries pour tablette */
  @media (max-width: 1366px) and (min-width: 1024px){
