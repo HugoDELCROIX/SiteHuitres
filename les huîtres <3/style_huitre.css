@@ -217,6 +217,17 @@ header h2 {
         font-size: 30px;
         padding: 5px 16px;
     }
+    .p_histoire img{
+        width: 200px;
+    }
+    .p_histoire img:hover {
+        width: 280px;
+        height: auto;
+        margin: 50px;
+    }
+    .p_histoire h3{
+        font-size: 20px;
+    }
  }
 /* MediaQueries pour petit smartphone */
  @media (max-width: 375px) and (min-width: 280px){
@@ -230,7 +241,17 @@ header h2 {
         font-size: 30px;
         padding: 5px 16px;
     }
-    
+    .p_histoire img{
+        width: 150px;
+    }
+    .p_histoire img:hover {
+        width: 200px;
+        height: auto;
+        margin: 50px;
+    }
+    .p_histoire h3{
+        font-size: 17px;
+    }
  }
  /* MediaQueries pour tablette */
  @media (max-width: 1366px) and (min-width: 1024px){
@@ -242,7 +263,35 @@ header h2 {
     h1,h2,h3,h4{
         font-size: 30px
     }
+    .p_histoire img{
+        width: 500px;
+    }
+    .p_histoire img:hover {
+        width: 870px;
+        height: auto;
+        margin: 50px;
+    }
+    
  }
 
+ @media (max-width: 1023px) and (min-width: 768px){
+    header a{
+        font-size: 30px;  
+        margin-left: 10px;      
+        margin-right: 10px;   
+    }
+    h1,h2,h3,h4{
+        font-size: 30px
+    }
+    .p_histoire img{
+        width: 500px;
+    }
+    .p_histoire img:hover {
+        width: 600px;
+        height: auto;
+        margin: 50px;
+    }
+    
+ }
 
  
