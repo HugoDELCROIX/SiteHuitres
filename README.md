@@ -1,4 +1,4 @@
-# projet_site
+# Les Huitres
 
 Projet scolaire dans lequel je dois créer un site à l'aide de HTML/CSS.
 
